@@ -5,7 +5,7 @@ baseurl: "/researcher"
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
 
-tracking_id: #
+tracking_id: G-762VGX3R51
 
 footer: yes
 footer_url: "https://github.com/ankitsultana"

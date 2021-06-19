@@ -29,8 +29,6 @@ footer-links:
 # Permalink placeholders for blog posts
 categories: tests, blog
 
-# 
-
 sass:
     style: compressed
     sass_dir: _sass

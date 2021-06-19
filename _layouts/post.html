@@ -1,6 +1,15 @@
 ---
 layout: default
 ---
+<!-- display post tags inside post page -->
+<span>[
+  {% for tag in page.tags %}
+    {% capture tag_name %}{{ tag }}{% endcapture %}
+    <a href="{{ site.baseurl }}/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+  {% endfor %}
+]</span>
+
+<!-- post metadata -->
 <p>{{ page.date }} - Written by {{ page.author }}</p>
 
 {{ content }}

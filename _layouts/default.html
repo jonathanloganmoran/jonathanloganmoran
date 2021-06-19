@@ -35,6 +35,10 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
     {% endif %}
+    <!-- Runs Collect Tags Script -->
+    {% if site.tags != "" %}
+      {% include collecttags.html %}
+    {% endif %}
     {% if site.twitter_username %}
         <link rel="author" href="https://twitter.com/{{ site.twitter_username }}">
     {% endif %}

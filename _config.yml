@@ -1,4 +1,4 @@
-title: Jonathan Moran
+title: Jonathan L. Moran
 url: "https://ankitsultana.com"
 baseurl: "/researcher"
 
@@ -20,6 +20,15 @@ footer: yes
 footer_url: "https://github.com/ankitsultana"
 footer_text: "Page design by Ankit Sultana"
 
+# Includes an icon in the footer for each username you enter
+footer-links:
+  github: jonathanloganmoran
+  linkedin: jonathanloganmoran
+  gmail: jonathan.moran107@gmail.com
+
+# Permalink placeholders for blog posts
+categories: tests, blog
+
 sass:
     style: compressed
     sass_dir: _sass
@@ -31,3 +40,5 @@ nav:
    link: "resume.pdf"
  - name: "Contact"
    link: "contact"
+ - name: "Test"
+   link: "test"

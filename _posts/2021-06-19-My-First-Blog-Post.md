@@ -1,0 +1,12 @@
+---
+layout: post
+title: My First Blog Post
+author: Jonathan Logan Moran
+categories: blog
+permalink: /my-first-blog-post
+---
+
+# My First Blog Post
+## 2021-06-19
+Here is some body text.
+

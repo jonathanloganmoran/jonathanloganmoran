@@ -29,6 +29,8 @@ footer-links:
 # Permalink placeholders for blog posts
 categories: tests, blog
 
+# 
+
 sass:
     style: compressed
     sass_dir: _sass
@@ -36,9 +38,9 @@ sass:
 nav:
  - name: "About"
    link: "/researcher/"
+ - name: "Test"
+   link: "test"
  - name: "Resume"
    link: "resume.pdf"
  - name: "Contact"
    link: "contact"
- - name: "Test"
-   link: "test"

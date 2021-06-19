@@ -4,7 +4,9 @@ layout: default
 
 ## About Me
 
-<img class="profile-picture" src="android-chrome-192x192.png">
+{% if site.avatar %}
+<img class="profile-picture" src="{{ '/avatar.png' | prepend: site.avatar_images }}">
+{% endif %}
 
 Hi! I am a junior year student of B.E. Computer Science at Birla Institute of Technology and Science, Pilani.
 

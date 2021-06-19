@@ -1,4 +1,4 @@
-title: Researcher
+title: Jonathan Moran
 url: "https://ankitsultana.com"
 baseurl: "/researcher"
 
@@ -7,8 +7,13 @@ markdown: kramdown
 #plugins: -jekyll-seo-tag
 
 favicon: yes
+favicons_location: "assets/images/favicons"
 
-author: yes
+avatar_images: "assets/images/author"
+avatar: yes
+
+author: "Jonathan Logan Moran"
+
 tracking_id: "G-762VGX3R51"
 
 footer: yes

@@ -4,13 +4,18 @@ baseurl: "/researcher"
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
+#plugins: -jekyll-seo-tag
 
-tracking_id: G-762VGX3R51
+favicon: yes
+
+author: yes
+tracking_id: "G-762VGX3R51"
 
 footer: yes
 footer_url: "https://github.com/ankitsultana"
 footer_text: "Page design by Ankit Sultana"
 
+twitter_username: "jonathan_moran"
 sass:
     style: compressed
     sass_dir: _sass

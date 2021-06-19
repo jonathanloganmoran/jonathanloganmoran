@@ -1,6 +1,7 @@
 title: Jonathan L. Moran
 url: "https://ankitsultana.com"
-baseurl: "/researcher"
+#baseurl: "/researcher"
+baseurl: ""
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
@@ -35,10 +36,10 @@ sass:
 
 nav:
  - name: "About"
-   link: "/researcher/"
+   link: "/"
  - name: "Test"
-   link: "test"
+   link: "/test"
  - name: "Resume"
    link: "resume.pdf"
  - name: "Contact"
-   link: "contact"
+   link: "/contact"

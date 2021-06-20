@@ -3,7 +3,7 @@ remote_theme: ankitsultana/researcher@gem
 title: Jonathan L. Moran
 url: "https://jonathanloganmoran.github.io"
 #baseurl: "/researcher"
-baseurl: "/jonathanloganmoran"
+baseurl: ""
 
 remote_theme:
 
@@ -42,12 +42,12 @@ sass:
 
 nav:
  - name: "Portfolio"
-   link: '/jonathanloganmoran/portfolio'
+   link: '/portfolio'
  - name: "Education"
-   link: "/jonathanloganmoran/education"
+   link: "/education"
  - name: "Experience"
-   link: "/jonathanloganmoran/experience"
+   link: "/experience"
  - name: "Resume"
    link: "resume.pdf"
  - name: "Contact"
-   link: "/jonathanloganmoran/contact"
+   link: "/contact"

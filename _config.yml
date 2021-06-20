@@ -20,6 +20,8 @@ avatar: yes
 author: "Jonathan Logan Moran"
 
 tracking_id: UA-199808329-1
+plugins:
+   - jekyll-seo-tag
 
 footer: yes
 footer_url: "https://github.com/ankitsultana"

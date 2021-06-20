@@ -7,7 +7,6 @@ baseurl: ""
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
-#plugins: -jekyll-seo-tag
 
 favicon: yes
 favicons_location: "assets/images/favicons"
@@ -18,6 +17,8 @@ avatar_images: "assets/images/author"
 avatar: yes
 
 author: "Jonathan Logan Moran"
+
+timezone: America/Los_Angeles
 
 tracking_id: UA-199808329-1
 plugins:

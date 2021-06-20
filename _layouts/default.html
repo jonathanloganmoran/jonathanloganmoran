@@ -39,6 +39,8 @@
     {% if site.tags != "" %}
       {% include collecttags.html %}
     {% endif %}
+    <!-- SEO tags -->
+    {% seo %}
     {% if site.twitter_username %}
         <link rel="author" href="https://twitter.com/{{ site.twitter_username }}">
     {% endif %}

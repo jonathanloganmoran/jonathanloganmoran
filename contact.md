@@ -19,7 +19,7 @@ is_contact: true
 >
 > Lund, Skåne län, Sverige
 >
-> Mälmo, Skåne län, Sverige
+> Malmö, Skåne län, Sverige
 >
 > København, Region Hovedstaden, Danmark
 

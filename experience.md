@@ -23,7 +23,7 @@ layout: default
 *   <ins>Publication</ins>: Moran, J. L. (2019). Classifying Emotion Using Convolutional Neural Networks. UCM URJ, 11(1).
 
 # [Google](https://careers.google.com)
-### Mar 2017 - Jul 2017
+### Mar 2017 - July 2017
 *   Participated in an invite-only 12-week development program for high-potential CS undergraduates
 *   Implemented a full-stack chat application in Java and PHP while accomplishing all team + project goals
 *   Gained important exposure to best practices, Google code reviews, advisor mentorship, and mock interviews

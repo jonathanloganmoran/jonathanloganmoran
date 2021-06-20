@@ -3,24 +3,31 @@ layout: default
 is_contact: true
 ---
 
-* Email: [foo@xyz.com](mailto:foo@xyz.com)
+* Email: [jonathan.moran107@gmail.com](mailto:jonathan.moran107@gmail.com)
 
-* Phone: [+91-123123](tel:+91-123123)
+* Phone: [+1 (760) 975-7771](tel:+17609757771)
 
 ---
 
-## Mailing Address
+## Current Location
 
-> 221B, Baker Street
+> San Diego, CA, USA
+
+## Preferred Locations
+
+> San Francisco Bay Area, CA, USA
 >
-> London
+> Lund, Skåne län, Sverige
 >
-> United Kingdom
+> Mälmo, Skåne län, Sverige
+>
+> København, Region Hovedstaden, Danmark
+
 
 ---
 
 ## Social
 
-1. [Facebook](#)
-2. [Twitter](#)
-3. [Google+](#)
+1. [LinkedIn](https://www.linkedin.com/in/jonathanloganmoran/)
+2. [GitHub](https://github.com/jonathanloganmoran)
+3. [Devpost](https://devpost.com/jonathanmoran)

@@ -10,6 +10,8 @@ markdown: kramdown
 favicon: yes
 favicons_location: "assets/images/favicons"
 
+site_images: "assets/images/site_images"
+
 avatar_images: "assets/images/author"
 avatar: yes
 
@@ -35,12 +37,12 @@ sass:
     sass_dir: _sass
 
 nav:
- - name: "About"
-   link: "/"
- - name: "Test"
-   link: "/test"
+ - name: "Portfolio"
+   link: "/portfolio"
  - name: "Education"
    link: "/education"
+ - name: "Experience"
+   link: "/experience"
  - name: "Resume"
    link: "resume.pdf"
  - name: "Contact"

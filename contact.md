@@ -31,3 +31,4 @@ is_contact: true
 1. [LinkedIn](https://www.linkedin.com/in/jonathanloganmoran/)
 2. [GitHub](https://github.com/jonathanloganmoran)
 3. [Devpost](https://devpost.com/jonathanmoran)
+4. [Nintendo Switch](http://nin.codes/jonathanmoran)

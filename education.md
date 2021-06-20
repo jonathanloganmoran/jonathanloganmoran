@@ -29,7 +29,7 @@ layout: default
 # <ins> Awards & Honors </ins>
 
 | Year | Issuer                                                                                  | Award                                                                                                                                                                   |
-|-------|:----------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------:|
+|-------|------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | 2019 | Teknologkårens vid Lunds Tekniska Högskola (TLTH)      | TLTH:s Funtionårsmedaljen - Brons av första (Brons I)                                                                                       |
 | 2019 | Teknologkårens vid Lunds Tekniska Högskola (TLTH)      | TLTH:s Funtionårsmedaljen - Brons av andra graden (Brons II)                                                                          |
 | 2016 | SD Hacks 2016                                                                 | Perkins Coie - Most Entreprenurially Promising                                                                                                  |
@@ -37,6 +37,18 @@ layout: default
 | 2016 | HackMerced                                                                      | 1st Place in Creativity                                                                                                                                          |
 | 2016 | University of California, Merced                                        | Dean's Honors List                                                                                                                                              |
 | 2015 | University of California, Merced                                        | Dean's Honors List                                                                                                                                              |
+
+# <ins> Leadership & Volunteering </ins>
+
+| Year  | Organization                                   | Title                             |
+|-------|----------------------------------------|---------------------------|
+| 2020 | Teknologkåren vid LTH                   | Direktør - Proud Tech  |
+| 2019 | Smålands Nation                            | Web Responsible        |
+| 2019 | Smålands Nation                            | Café Commissar         |
+| 2018 | Mental Health Merced                    | Co-Founder                |
+| 2018 | National Alliance on Mental Illness | Events Director           |
+| 2017 | HackMerced                                   | Project Design Lead   |
+| 2014 | Kiwanis Club of San Diego             | Club President            |
 
 # <ins> Projects </ins>
 

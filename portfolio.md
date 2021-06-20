@@ -3,6 +3,7 @@ layout: default
 ---
 
 # My Work
+"""
 {% for category in site.categories %}
   <h3>{{ category[0] }}</h3>
   <ul>
@@ -11,3 +12,4 @@ layout: default
     {% endfor %}
   </ul>
 {% endfor %}
+"""

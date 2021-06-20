@@ -1,9 +1,11 @@
 remote_theme: ankitsultana/researcher@gem
 
 title: Jonathan L. Moran
-url: "https://jonathanloganmoran.github.io/jonathanloganmoran/"
+url: "https://jonathanloganmoran.github.io"
 #baseurl: "/researcher"
-baseurl: ""
+baseurl: "/jonathanloganmoran"
+
+remote_theme:
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
@@ -40,12 +42,12 @@ sass:
 
 nav:
  - name: "Portfolio"
-   link: "/portfolio"
+   link: '/jonathanloganmoran/portfolio'
  - name: "Education"
-   link: "/education"
+   link: "/jonathanloganmoran/education"
  - name: "Experience"
-   link: "/experience"
+   link: "/jonathanloganmoran/experience"
  - name: "Resume"
    link: "resume.pdf"
  - name: "Contact"
-   link: "/contact"
+   link: "/jonathanloganmoran/contact"

@@ -39,6 +39,8 @@ nav:
    link: "/"
  - name: "Test"
    link: "/test"
+ - name: "Education"
+   link: "/education"
  - name: "Resume"
    link: "resume.pdf"
  - name: "Contact"

@@ -9,7 +9,11 @@ layout: default
   {% endfor %}
 ]</span>
 
+{{ content }}
+
 <!-- post metadata -->
 <p>{{ page.date }} - Written by {{ page.author }}</p>
 
-{{ content }}
+<footer>
+    {% include archive.html %}
+</footer>

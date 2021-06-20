@@ -20,9 +20,10 @@ author: "Jonathan Logan Moran"
 
 timezone: America/Los_Angeles
 
-tracking_id: UA-199808329-1
+tracking_id: UA-199808329-1     # now using UA, previous GA tag was unsupported
 plugins:
    - jekyll-seo-tag
+   - jekyll-remote-theme        # verbose
 
 footer: yes
 footer_url: "https://github.com/ankitsultana"

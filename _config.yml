@@ -6,6 +6,18 @@ url: "http://jonathanlmoran.com/"
 baseurl: ""
 
 markdown: kramdown
+highlighter: rouge
+
+# Markdown Processors
+kramdown:
+   input: GFM
+   auto_ids: true
+   # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+   syntax_highlighter: rouge
+   #syntax_highlighter_opts:
+   # Use existing pygments syntax highlighting css
+   #css_class: 'highlight'
+  
 #ins_logo: "./bits-logo.png"
 
 favicon: yes
@@ -20,7 +32,7 @@ author: "Jonathan Logan Moran"
 
 timezone: America/Los_Angeles
 
-tracking_id: UA-199808329-1     # now using UA, previous GA tag was unsupported
+tracking_id: UA-199808329-1     # default UA tag, beta GA tag
 plugins:
    - jekyll-seo-tag
    - jekyll-remote-theme        # verbose

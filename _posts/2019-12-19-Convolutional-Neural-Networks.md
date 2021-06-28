@@ -3,8 +3,8 @@ layout: post
 title: Convolutional Neural Networks - The Basics
 author: Jonathan Logan Moran
 categories: portfolio
-tags: machine-learning python ipynb 
-permalink: /unsupervised-learning-with-the-EM-algorithm
+tags: CNN image-augmentation feature-extraction classification machine-learning python ipynb 
+permalink: /convolutional-neural-networks-basics
 description: ""
 ---
 

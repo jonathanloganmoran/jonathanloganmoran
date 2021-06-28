@@ -3,7 +3,7 @@ layout: post
 title: Recognising Named Entities
 author: Jonathan Logan Moran
 categories: portfolio
-tags: NER embeddings python ipynb machine-learning RNN LSTM
+tags: NLP NER embeddings python ipynb machine-learning RNN LSTM
 permalink: /recognising-named-entities
 description: "Named entity recognition (abbreviated NER) is a subset of NLP that seeks to identify and categorise key information in text (called entities). In this article we will be performing NER by training a neural net on the CoNLL2003 and GloVe embeddings datasets."
 ---

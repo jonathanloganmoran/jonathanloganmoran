@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Publication: Classifying Emotion Using Convolutional Neural Networks
+title: Classifying Emotion Using Convolutional Neural Networks (Publication)
 author: Jonathan Logan Moran
 categories: portfolio
 tags: computer-vision face-recognition emotion-recognition python ipynb tensorflow machine-learning CNN

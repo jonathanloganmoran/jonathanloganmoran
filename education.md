@@ -30,8 +30,8 @@ layout: default
 
 | Year | Issuer                                                                                  | Award                                                                                                                                                                   |
 |-------|-----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| 2019 | Teknologkåren vid Lunds Tekniska Högskola (TLTH)        | TLTH:s Funtionårsmedaljen - Brons av andra graden (Brons II)                                                                          
 | 2019 | Teknologkåren vid Lunds Tekniska Högskola (TLTH)        | TLTH:s Funtionårsmedaljen - Brons av första (Brons I)                                                                                       |
-| 2019 | Teknologkåren vid Lunds Tekniska Högskola (TLTH)        | TLTH:s Funtionårsmedaljen - Brons av andra graden (Brons II)                                                                          |
 | 2016 | SD Hacks 2016                                                                 | Perkins Coie - Most Entreprenurially Promising                                                                                                  |
 | 2016 | SD Hacks 2016                                                                 | 1517 Fund Award                                                                                                                                                 |
 | 2016 | HackMerced                                                                      | 1st Place in Creativity                                                                                                                                          |

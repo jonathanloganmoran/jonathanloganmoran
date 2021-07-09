@@ -6,15 +6,17 @@ url: "http://jonathanlmoran.com/"
 baseurl: ""
 
 markdown: kramdown
-highlighter: rouge
-
 # Markdown Processors
 kramdown:
    input: GFM
    auto_ids: true
    # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
    syntax_highlighter: rouge
-   #syntax_highlighter_opts:
+   syntax_highlighter_opts:
+      default_lang: python
+      css_class: 'highlight'
+      block:
+         line_numbers: false
    # Use existing pygments syntax highlighting css
    #css_class: 'highlight'
   

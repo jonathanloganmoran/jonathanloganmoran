@@ -16,12 +16,12 @@ In this article we will
 
 ## Background and Tools
 The EM (Expectation-Maximisation) algorithm solves the problem of not being able to compute the Maximum Likelihood Estimates for unknown classes directly by iterating over the two steps until there is no significant change in Step 2 observable:
-```
+
 1.    Compute the expected outcome for each sample / sample given estimates for priors and distribution (essentially, the likelihoods for observing the sample assuming an estimated distribution)
-```
-```
+
+
 2.    Compute the new estimates for your priors and distributions (in the case of a Gaussian NBC, new means and variances are needed) based on the estimated expected values for how much each sample belongs to the respective distribution.
-```
+
 You can find the algorithm stated explicitly as given in Murphy, "Machine Learning - A probabilistic perspective", pp. 352-353 [HERE](http://fileadmin.cs.lth.se/cs/Education/EDAN95/Handouts/EM-algo.pdf).
 
 One special case of the EM algorithm is k-Means clustering, for which an implementation can be found in SciKitLearn.

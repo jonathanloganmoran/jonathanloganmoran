@@ -27,17 +27,22 @@ favicons_location: "assets/images/favicons"
 
 site_images: "assets/images/site_images"
 
-avatar_images: "assets/images/author"
 avatar: yes
+avatar_random: yes              # Randomises avatar image, selected from `avatar_images` folder
+avatar_images: "assets/images/author"
 
 author: "Jonathan Logan Moran"
 
 timezone: America/Los_Angeles
 
-tracking_id: UA-199808329-1     # default UA tag, beta GA tag
+# Google Analytics support
+tracking: yes
+tracking_id: UA-199808329-1     # Default UA tag, GA tag is also used in default.html
+
+# Jekyll plugins
 plugins:
    - jekyll-seo-tag
-   - jekyll-remote-theme        # verbose
+   - jekyll-remote-theme
    - jekyll-sitemap
 
 footer: yes

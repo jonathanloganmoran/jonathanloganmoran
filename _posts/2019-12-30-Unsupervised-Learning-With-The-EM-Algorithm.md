@@ -663,7 +663,7 @@ y_train[y_pred == 3] = 5
 y_train[y_pred == 4] = 8
 y_train[y_pred == 5] = 0
 y_train[y_pred == 6] = 7
-y_train[y_pred == 7] = 1
+y_train[y_pred == 7] = 2
 y_train[y_pred == 8] = 9
 y_train[y_pred == 9] = 3
 ```

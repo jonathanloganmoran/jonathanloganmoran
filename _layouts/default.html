@@ -23,9 +23,11 @@
     <meta name="description" content="{{ desc }}">
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
-    <!-- custom syntax highlighting -->
+    
+    <!-- Use custom syntax highlighting -->
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-
+    
+    <!-- Update favicon image files -->
     {% if site.favicon %}
         <link rel="icon" type="image/png" href="{{ '/android-chrome-192x192.png' | prepend: site.favicons_location }}">
         <link rel="shortcut icon" type="image/ico" href="{{ '/favicon.ico' | prepend: site.favicons_location }}">
@@ -37,6 +39,55 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
     {% endif %}
+
+    <!-- Load jQuery for avatar randomisation -->
+    <script src="/assets/javascripts/application.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
+    <!-- Randomise avatar images on refresh and click -->
+    {% if site.avatar %}
+        <!-- Set target folder of avatars to choose from -->
+        {% assign avatar_folder = '/assets/images/author/' %}
+        <!-- Get paths of all avatar images in folder -->
+        {% assign avatar_array = site.static_files | 
+            where_exp: "image", "image.path contains avatar_folder" %}
+        <!-- JavaScript code to update avatar image -->
+        <script type="text/javascript">
+            // Store image paths in variable
+            var avatar_images = [
+                {% for image in avatar_array %}
+                    "{{ site.baseurl }}{{ image.path }}",
+                {% endfor %}
+            ];
+            // Choose random index from avatars list
+            var rand_idx = Math.floor(Math.random() * avatar_images.length);
+            // Get image at random index
+            var avatar_image = avatar_images[rand_idx]
+            // Default behaviour: set random image
+            {% if site.avatar_random %}
+                $( document ).ready(function() {
+                    // Update avatar on page refresh
+                    $('#my_avatar').attr('src', avatar_image)                  
+                    // Update avatar on click
+                    $('#my_avatar').click(function() {
+                        // Choose new random index from avatars list
+                        var rand_idx = Math.floor(Math.random() * avatar_images.length);
+                        // Get image path at index
+                        var avatar_image = avatar_images[rand_idx]
+                        // Update avatar with new image
+                        $('#my_avatar').attr('src', avatar_image)
+                    });
+                });
+            // Alternate behaviour: load default image
+            {% elsif site.avatar_random == false %}
+                $( document ).ready(function() {
+                    // Update the src attribute to be the image path of the default avatar
+                    $('#my_avatar').attr('src', {{ '/memoji-waving.png' | prepend: site.avatar_images }})
+                });
+            {% endif %}
+        </script>
+    {% endif %}
+
     <!-- Runs Collect Tags Script -->
     {% if site.tags != "" %}
       {% include collecttags.html %}
@@ -68,7 +119,8 @@
         <meta name="twitter:image" content="{{ site.profile_picture }}">
     {% endif %}
     
-    {% if site.tracking_id %}
+    <!-- Google Analytics tracking -->
+    {% if site.tracking %}
         <!-- Global site tag (gtag.js) - Google Analytics UA support -->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

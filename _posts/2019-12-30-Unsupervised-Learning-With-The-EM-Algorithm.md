@@ -3,16 +3,16 @@ layout: post
 title: Unsupervised Learning of Gaussian Mixture Models With the EM Algorithm
 author: Jonathan Logan Moran
 categories: portfolio
-tags: clustering k-Means gaussian-mixture-models GNBC EM-algorithm SciKitLearn digits machine-learning unsupervised-learning python ipynb
+tags: clustering k-Means gaussian-mixture-models GNBC EM-algorithm scikit-learn digits machine-learning unsupervised-learning python ipynb
 permalink: /unsupervised-learning-with-the-EM-algorithm
-description: "The Expectation-Maximization algorithm is a powerful iterative method for calculating maximum likelihood estimates from unlabeled data. In this article, we will be exploring its use in Gaussian mixture models to perform the task of clustering with the SciKitLearn digits dataset. The performance of the EM-algorithm is then compared to a vanilla k-Means implementation provided in SciKitLearn."
+description: "The Expectation-Maximization algorithm is a powerful iterative method for calculating maximum likelihood estimates from unlabeled data. In this article, we will be exploring its use in Gaussian mixture models to perform the task of clustering with the Scikit-learn digits dataset. The performance of the EM-algorithm is then compared to a vanilla k-Means implementation provided in Scikit-learn."
 ---
 # Expectation-Maximization Algorithm For Gaussian Mixture Models
 
 ## Objectives
 In this article we will
 *    train a Gaussian NBC with the EM algorithm
-*    compare the results you get to those of the k-Means clustering provided in SciKitLearn
+*    compare the results you get to those of the k-Means clustering provided in Scikit-learn
 
 ## Background and Tools
 The EM (Expectation-Maximisation) algorithm solves the problem of not being able to compute the Maximum Likelihood Estimates for unknown classes directly by iterating over the two steps until there is no significant change in Step 2 observable:
@@ -24,10 +24,10 @@ The EM (Expectation-Maximisation) algorithm solves the problem of not being able
 
 You can find the algorithm stated explicitly as given in Murphy, "Machine Learning - A probabilistic perspective", pp. 352-353 [HERE](http://fileadmin.cs.lth.se/cs/Education/EDAN95/Handouts/EM-algo.pdf).
 
-One special case of the EM algorithm is k-Means clustering, for which an implementation can be found in SciKitLearn.
+One special case of the EM algorithm is k-Means clustering, for which an implementation can be found in Scikit-learn.
 
 ## Implementation task
-*1. Implement the EM-algorithm to find a Gaussian NBC for the `digits` dataset from SciKitLearn (you can of course also use the `MNIST_Light` set from Lab 5, but for initial tests the `digits` data set is more convienent, since it is smaller in various aspects). You may assume (conditional) indepdendence between the attributes, i.e., the covariances can be assumed to be simply the variances over each attribute. Split the data set in `70% training`, `30% test` data. If you experience problems due to the repreated multiplication of tiny values in likelihoods, it might help to normalise the data to values between `0.0` and `1.0` (i.e., simply divdie every pixel value with `16.0` in the `digits` data).*
+*1. Implement the EM-algorithm to find a Gaussian NBC for the `digits` dataset from Scikit-learn (you can of course also use the `MNIST_Light` set from Lab 5, but for initial tests the `digits` data set is more convienent, since it is smaller in various aspects). You may assume (conditional) indepdendence between the attributes, i.e., the covariances can be assumed to be simply the variances over each attribute. Split the data set in `70% training`, `30% test` data. If you experience problems due to the repreated multiplication of tiny values in likelihoods, it might help to normalise the data to values between `0.0` and `1.0` (i.e., simply divdie every pixel value with `16.0` in the `digits` data).*
 
 ### Collecting the dataset
 
@@ -96,7 +96,7 @@ plt.show()
 
 
     
-![Figure 1. Random sample of SciKitLearn digits from each class 0-9.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-figure-1.png)
+![Figure 1. Random sample of Scikit-learn digits from each class 0-9.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-figure-1.png)
     
 
 
@@ -844,9 +844,9 @@ plot_confusion_matrix(metrics.confusion_matrix(test_labels, y_pred))
     
 
 
-### Compare to k-Means with SciKitLearn
+### Compare to k-Means with Scikit-learn
 
-*4.   Use now also the k-Means implementation from SciKitLearn and compare the results to yours (they should be similar at least in the sense that there are classes that are more clearly separated from the rest than others for best approaches).*
+*4.   Use now also the k-Means implementation from Scikit-learn and compare the results to yours (they should be similar at least in the sense that there are classes that are more clearly separated from the rest than others for best approaches).*
 
 
 ```python

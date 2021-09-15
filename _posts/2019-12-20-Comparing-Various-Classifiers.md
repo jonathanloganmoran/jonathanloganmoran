@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Comparing the Performance of Various Classifiers on the SciKitLearn Digits and MNIST Datasets
+title: Comparing the Performance of Various Classifiers on the Scikit-learn Digits and MNIST Datasets
 author: Jonathan Logan Moran
 categories: portfolio
-tags: classification SciKitLearn digits MNIST python ipynb machine-learning NCC NBC GNBC
+tags: classification scikit-learn digits MNIST python ipynb machine-learning NCC NBC GNBC
 permalink: /comparing-various-classifiers
-description: "In this article we will be implementing several classifiers to predict the class labels of the SciKitLearn digits and MNIST_Light datasets."
+description: "In this article we will be implementing several classifiers to predict the class labels of the Scikit-learn digits and MNIST_Light datasets."
 ---
 
 # Comparing the Performance of Various Classifiers on Handwritten Digits Datasets
@@ -14,7 +14,7 @@ _In this post we will implement an NCC, a discrete (count-based) NBC, and a Gaus
 
 ## 1. Classifiers
 
-### 1.1. SciKitLearn Gaussian Naive Bayes Classifier
+### 1.1. Scikit-learn Gaussian Naive Bayes Classifier
 Make use of the provided Gaussian NB Classifier (`sklearn.naive_bayes GaussianNB`) for all data sets as a comparison.
 
 
@@ -65,7 +65,7 @@ class NCC:
 ```
 
 ### 1.3. Naive Bayes Classifier
-Implement a Naive Bayesian Classifier (NBC) based on discrete (statistical) values (i.e., counts of examples falling into the different classes and attribute value groups) both for the priors and for the conditional probabilities. Run this on the two SciKitLearn `digits` data sets. It should also work with the (non-normalised) `MNIST_Light` set, but it will probably take a (very long) while and not give anything interesting really...
+Implement a Naive Bayesian Classifier (NBC) based on discrete (statistical) values (i.e., counts of examples falling into the different classes and attribute value groups) both for the priors and for the conditional probabilities. Run this on the two Scikit-learn `digits` data sets. It should also work with the (non-normalised) `MNIST_Light` set, but it will probably take a (very long) while and not give anything interesting really...
 
 
 ```python
@@ -175,7 +175,7 @@ class GNBC:
 
 ## 2. Datasets
 
-### 2.1. SciKitLearn Digits
+### 2.1. Scikit-learn Digits
 
 Recall that the `digits` dataset consists of 1797 samples. Each sample is an 8x8 image of a single handwritten digit from 0 to 9. Each sample therefore has 64 features, where each of the 64 features is a brightness value of a pixel in the image.
 
@@ -228,7 +228,7 @@ visualize_random(digits.images, digits.target, 8)
 
 
     
-![Figure 1. Random sample of SciKitLearn digits from each class 0-9.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-figure-1.png)
+![Figure 1. Random sample of Scikit-learn digits from each class 0-9.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-figure-1.png)
     
 
 
@@ -278,7 +278,7 @@ X_train = X_train / 16.0
 X_test = X_test / 16.0
 ```
 
-#### 2.1.1. SciKitLearn Gaussian Naive Bayes Classifier
+#### 2.1.1. Scikit-learn Gaussian Naive Bayes Classifier
 
 
 ```python
@@ -317,14 +317,14 @@ from mlxtend.plotting import plot_confusion_matrix
 
 
 ```python
-print('SciKitLearn Guassian Naive Bayes Classifier on digits dataset... \n')
+print('Scikit-learn Guassian Naive Bayes Classifier on digits dataset... \n')
 print('-'*10 + 'Classification Report' + '-'*5)
 print(metrics.classification_report(y_test, y_pred))
 print('-'*10 + 'Confusion Matrix' + '-'*10)
 plot_confusion_matrix(metrics.confusion_matrix(y_test, y_pred))
 ```
 
-    SciKitLearn Guassian Naive Bayes Classifier on digits dataset... 
+    Scikit-learn Guassian Naive Bayes Classifier on digits dataset... 
     
     ----------Classification Report-----
                   precision    recall  f1-score   support
@@ -348,7 +348,7 @@ plot_confusion_matrix(metrics.confusion_matrix(y_test, y_pred))
 
 
     
-![Output 1. Confusion matrix for SciKitLearn Guassian Naive Bayes Classifier on digits dataset.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-output-1.png)
+![Output 1. Confusion matrix for Scikit-learn Guassian Naive Bayes Classifier on digits dataset.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-output-1.png)
     
 
 
@@ -540,7 +540,7 @@ plot_confusion_matrix(metrics.confusion_matrix(y_test, y_pred))
     
 
 
-### 2.2. SciKitLearn Digits Summarised
+### 2.2. Scikit-learn Digits Summarised
 
 Reduce the `digits` data set to only contain three values for the attributes, e.g., `0` for _dark_, `1` for _grey_ and `2` for _light_, with _dark_, _grey_ and _light_. Split again into `70%` training and `30%` test data.
 
@@ -575,7 +575,7 @@ plt.show()
 
 
     
-![Figure 3. Random sample of SciKitLearn digits (summarised) from each class 0-9.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-figure-3.png)
+![Figure 3. Random sample of Scikit-learn digits (summarised) from each class 0-9.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-figure-3.png)
     
 
 
@@ -584,7 +584,7 @@ plt.show()
 X_train, X_test, y_train, y_test = train_test_split(digits_data_summarised, digits_target_summarised, test_size=0.3)
 ```
 
-#### 2.2.1. SciKitLearn Gaussian Naive Bayes Classifier
+#### 2.2.1. Scikit-learn Gaussian Naive Bayes Classifier
 
 
 ```python
@@ -612,14 +612,14 @@ y_pred = sklearnGNB.predict(X_test)
 
 
 ```python
-print('SciKitLearn Gaussian Naive Bayes Classifier on digits summarised dataset... \n')
+print('Scikit-learn Gaussian Naive Bayes Classifier on digits summarised dataset... \n')
 print('-'*10 + 'Classification Report' + '-'*5)
 print(metrics.classification_report(y_test, y_pred))
 print('-'*10 + 'Confusion Matrix' + '-'*10)
 plot_confusion_matrix(metrics.confusion_matrix(y_test, y_pred))
 ```
 
-    SciKitLearn Gaussian Naive Bayes Classifier on digits summarised dataset... 
+    Scikit-learn Gaussian Naive Bayes Classifier on digits summarised dataset... 
     
     ----------Classification Report-----
                   precision    recall  f1-score   support
@@ -643,7 +643,7 @@ plot_confusion_matrix(metrics.confusion_matrix(y_test, y_pred))
 
 
 
-![Output 5. Confusion matrix for SciKitLearn Gaussian Bayes Classifier on digits summarised dataset.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-output-5.png)
+![Output 5. Confusion matrix for Scikit-learn Gaussian Bayes Classifier on digits summarised dataset.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-output-5.png)
     
 
 
@@ -868,7 +868,7 @@ mean_image(train_features, train_labels, dim=20)
     
 
 
-#### 2.3.1. SciKitLearn Gaussian Naive Bayes Classifier
+#### 2.3.1. Scikit-learn Gaussian Naive Bayes Classifier
 
 
 ```python
@@ -889,14 +889,14 @@ y_pred = sklearnGNB.predict(test_normalised)
 
 
 ```python
-print('SciKitLearn Gaussian Naive Bayes Classifier on MNIST_Light data... \n')
+print('Scikit-learn Gaussian Naive Bayes Classifier on MNIST_Light data... \n')
 print('-'*10 + 'Classification Report' + '-'*5)
 print(metrics.classification_report(test_labels, y_pred))
 print('-'*10 + 'Confusion Matrix' + '-'*10)
 plot_confusion_matrix(metrics.confusion_matrix(test_labels, y_pred))
 ```
 
-    SciKitLearn Gaussian Naive Bayes Classifier on MNIST_Light data... 
+    Scikit-learn Gaussian Naive Bayes Classifier on MNIST_Light data... 
     
     ----------Classification Report-----
                   precision    recall  f1-score   support
@@ -920,7 +920,7 @@ plot_confusion_matrix(metrics.confusion_matrix(test_labels, y_pred))
 
 
     
-![Output 9. Confusion matrix for SciKitLearn Gaussian Naive Bayes on MNIST_Light data.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-output-9.png)
+![Output 9. Confusion matrix for Scikit-learn Gaussian Naive Bayes on MNIST_Light data.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-output-9.png)
     
 
 

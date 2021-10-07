@@ -941,6 +941,6 @@ print("AMI score: %s" %(metrics.adjusted_mutual_info_score(test_labels, labels))
 
 
 ## Credits
-This assignment and its instructions was prepared by EDAN95 course coordinator V. Krueger, link [here](http://cs.lth.se/edan95/lab-programming-assignments/).
+This assignment and its instructions were prepared by EDAN95 course coordinator E.A. Topp, link [here](http://cs.lth.se/elin_anna_topp).
 
 Label permutation problem for k-Means clustering of digits dataset explained in detail [here](https://jakevdp.github.io/PythonDataScienceHandbook/05.11-k-means.html).

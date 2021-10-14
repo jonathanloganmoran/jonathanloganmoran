@@ -8,18 +8,21 @@ baseurl: ""
 markdown: kramdown
 # Markdown Processors
 kramdown:
-   input: GFM
-   auto_ids: true
-   # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-   syntax_highlighter: rouge
-   syntax_highlighter_opts:
-      default_lang: python
-      css_class: 'highlight'
-      block:
-         line_numbers: false
-   # Use existing pygments syntax highlighting css
-   #css_class: 'highlight'
-  
+    input: GFM
+    auto_ids: true
+    math_engine: mathjax
+    math_engine_opts: {}
+    parse_block_html: true
+    # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+    syntax_highlighter: rouge
+    syntax_highlighter_opts:
+        default_lang: python
+        css_class: 'highlight'
+        block:
+            line_numbers: false
+     # Use existing pygments syntax highlighting css
+     #css_class: 'highlight'
+    
 #ins_logo: "./bits-logo.png"
 
 favicon: yes
@@ -41,9 +44,9 @@ tracking_id: UA-199808329-1     # Default UA tag, GA tag is also used in default
 
 # Jekyll plugins
 plugins:
-   - jekyll-seo-tag
-   - jekyll-remote-theme
-   - jekyll-sitemap
+    - jekyll-seo-tag
+    - jekyll-remote-theme
+    - jekyll-sitemap
 
 footer: yes
 footer_url: "https://github.com/ankitsultana"
@@ -51,9 +54,9 @@ footer_text: "Page design by Ankit Sultana"
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  github: jonathanloganmoran
-  linkedin: jonathanloganmoran
-  gmail: jonathan.moran107@gmail.com
+    github: jonathanloganmoran
+    linkedin: jonathanloganmoran
+    gmail: jonathan.moran107@gmail.com
 
 # Permalink placeholders for blog posts
 categories: tests, blog
@@ -63,13 +66,13 @@ sass:
     sass_dir: _sass
 
 nav:
- - name: "Portfolio"
-   link: 'portfolio'
- - name: "Education"
-   link: "education"
- - name: "Experience"
-   link: "experience"
- - name: "Resume"
-   link: "resume.pdf"
- - name: "Contact"
-   link: "contact"
+- name: "Portfolio"
+  link: 'portfolio'
+- name: "Education"
+  link: "education"
+- name: "Experience"
+  link: "experience"
+- name: "Resume"
+  link: "resume.pdf"
+- name: "Contact"
+  link: "contact"

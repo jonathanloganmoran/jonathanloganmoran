@@ -1,12 +1,45 @@
 ---
 layout: default
 ---
+
+<!-- Resizing img by class -->
+<style>
+/* LaTeX formulas */
+img.latex {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+    width: 40%;
+}
+/* confusion matrices */
+img.cf_matrix {
+    height: 40%;
+    width:  40%;
+}
+/* figures in Python */
+img.figure {
+    height: 50%;
+    width: 50%;
+}
+/* charts in Python */
+img.chart {
+    height: 50%;
+    width: 50%;
+}
+/* general output in Python */
+img.output {
+    height: 50%;
+    width: 50%;
+}
+</style>
+
 <!-- display post tags inside post page -->
 <span>[
-  {% for tag in page.tags %}
-    {% capture tag_name %}{{ tag }}{% endcapture %}
-    <a href="{{ site.baseurl }}/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
-  {% endfor %}
+    {% for tag in page.tags %}
+        {% capture tag_name %}{{ tag }}{% endcapture %}
+        <a href="{{ site.baseurl }}/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+    {% endfor %}
 ]</span>
 
 {{ content }}

@@ -67,12 +67,12 @@ sass:
 
 nav:
 - name: "Portfolio"
-  link: 'portfolio'
+  link: "/portfolio"
 - name: "Education"
-  link: "education"
+  link: "/education"
 - name: "Experience"
-  link: "experience"
+  link: "/experience"
 - name: "Resume"
-  link: "resume.pdf"
+  link: "/resume.pdf"
 - name: "Contact"
-  link: "contact"
+  link: "/contact"

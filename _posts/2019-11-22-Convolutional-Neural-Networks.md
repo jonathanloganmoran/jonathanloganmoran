@@ -284,9 +284,8 @@ plt.show()
 ```
 
 
-    
-![Output 1. Class representation - bar chart.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-output-1.png)
-    
+
+<img class="chart" alt="Output 1. Class representation - bar chart." src="assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-output-1.png">
 
 
 
@@ -297,9 +296,9 @@ plt.axis('equal')
 plt.show()
 ```
 
-    
-![Output 2. Class representation - pie chart.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-output-2.png)
-    
+
+<img class="chart" alt="Output 2. Class representation - pie chart." src="assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-output-2.png">
+
 
 
 ### Visualising training performance
@@ -487,16 +486,10 @@ train_model(model, epochs)
 
 
 
-    
-![Output 3. Model 1 - Training and validation accuracy curves.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-output-3.png)
-    
+<img class="chart" alt="Output 3. Model 1 - Training and validation accuracy curves." src="assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-output-3.png">
 
 
-
-    
-![Output 4. Model 1 - Training and validation loss curves.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-output-4.png)
-    
-
+<img class="chart" alt="Output 4. Model 1 - Training and validation loss curves." src="assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-output-4.png">
 
 For a simple Convolutional Neural Network, our initial results don't look all that bad! However, examining the plots a bit closer we see that the validation accuracy reaches a maximum around the 10th epoch. We also see that our validation loss reaches a minimum around the 7th epoch. Conversely, our training loss appears to decrease linearly until it reaches 0. This is characteristic of overfitting.
 
@@ -559,10 +552,7 @@ y_pred = evaluate_model(model)
 
 
 
-    
-![Output 5. Model 1 - Confusion matrix.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-output-5.png)
-    
-
+<img class="cf_matrix" alt="Output 5. Model 1 - Confusion matrix." src="assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-output-5.png">
 
 So, our model's overall F1 score was `0.65` or ca. 65% accuracy. We'll use this as a benchmark to compare to as we make incremental progress in the following models.
 
@@ -646,27 +636,16 @@ plt.show()
 
 
     
-![Output 6. Image augmentation - Image 1.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-output-6.png)
-    
-
-
+<img class="output" alt="Output 6. Image augmentation of flowers data set - image generator sample image 1." src="assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-output-6.png">
 
     
-![Output 7. Image augmentation - Image 2.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-output-7.png)
-    
-
-
+<img class="output" alt="Output 7. Image augmentation of flowers data set - image generator sample image 2." src="assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-output-7.png">
 
     
-![Output 8. Image augmentation - Image 3.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-output-8.png)
-    
-
-
+<img class="output" alt="Output 8. Image augmentation of flowers data set - image generator sample image 3." src="assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-output-8.png">
 
     
-![Output 9. Image augmentation - Image 4.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-output-9.png)
-    
-
+<img class="output" alt="Output 9. Image augmentation of flowers data set - image generator sample image 4." src="assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-output-9.png">
 
 Great! We'll now be able to train our model on a larger dataset using more images like the samples above. However, there's still one extra step we must take to prevent overfitting. The input images, although augmented, are still heavily intercorrelated with the original dataset. In other words, most of the "new" information we've introduced is from our original data. To help address this issue, we add a Dropout layer to our model.
 
@@ -848,14 +827,10 @@ train_model(model, epochs=100)
 
 
     
-![Output 10. Model 2 - Training and validation accuracy curves.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-output-10.png)
-    
-
-
+<img class="chart" alt="Output 10. Model 2 - Training and validation accuracy curves." src="assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-output-10.png">
 
     
-![Output 11. Model 2 - Training and validation loss curves.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-output-11.png)
-    
+<img class="chart" alt="Output 11. Model 2 - Training and validation loss curves." src="assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-output-11.png">
 
 
 ### Evaluating model performance
@@ -908,8 +883,7 @@ evaluate_model(model)
 
 
     
-![Output 12. Model 2 - Confusion matrix.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-output-12.png)
-    
+<img class="cf_matrix" alt="Output 12. Model 2 - Confusion matrix." src="assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-output-12.png">
 
 
 While the augmented images didn't seem to improve the model's F1 score, our model's training curves indicate that we are no longer overfitting. In other words, our training curve more closely matches the validation curve. In the next section of this notebook, we will be improving the accuracy of our classifier with a pre-trained model via a technique called _transfer learning_.
@@ -1351,15 +1325,10 @@ train_model(model, x_train, y_train, batch_size, epochs=120)
 
 
     
-![Output 13. Model 3 - Training and validation accuracy curves.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-output-13.png)
-    
-
-
+<img class="output" alt="Output 13. Model 3 - Training and validation accuracy curves." src="assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-output-13.png">
 
     
-![Output 14. Model 3 - Training and validation loss curves.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-output-14.png)
-    
-
+<img class="output" alt="Output 14. Model 3 - Training and validation loss curves." src="assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-output-14.png">
 
 
 ```python
@@ -1393,17 +1362,7 @@ plot_confusion_matrix(confusion_matrix(np.argmax(y_test, axis=1), y_pred))
 
 
 
-
-
-    (<Figure size 432x288 with 1 Axes>,
-     <matplotlib.axes._subplots.AxesSubplot at 0x7f62f2d93cd0>)
-
-
-
-
-    
-![Output 15. Model 3 - Confusion matrix.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-output-15.png)
-    
+<img class="cf_matrix" alt="Output 15. Model 3 - Confusion matrix." src="assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-output-15.png">
 
 
 ### Feature extraction with data augmentation
@@ -1577,14 +1536,11 @@ train_model(model, epochs=30)
 
 
     
-![Output 16. Model 4 - Training and validation accuracy curves.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-output-16.png)
-    
+<img class="chart" alt="Output 16. Model 4 - Training and validation accuracy curves." src="assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-output-16.png">
 
 
+<img class="chart" alt="Output 17. Model 4 - Training and validation loss curves." src="assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-output-17.png">
 
-    
-![Output 17. Model 4 - Training and validation loss curves.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-output-17.png)
-    
 
 
 ### Evaluating model performance
@@ -1635,8 +1591,7 @@ evaluate_model(model)
 
 
     
-![Output 18. Model 4 - Confusion matrix.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-output-18.png)
-    
+<img class="cf_matrix" alt="Output 18. Model 4 - Confusion matrix." src="assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-output-18.png">
 
 
 
@@ -1674,7 +1629,8 @@ To further clarify, we will be re-purposing the `InceptionV3` pre-trained model 
 The figure below illustrates the two strategies we use in this notebook.
 
 
-| ![Figure 1. Fine-tuning strategies.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-figure-1.jpg) |
+
+| ![Figure 1. Fine-tuning strategies.](assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-figure-1.jpg) |
 |:--:|
 | *Figure 1. Fine-tuning strategies.* |
 
@@ -1683,7 +1639,8 @@ Strategy 2 was used previously to train only the fully-connected layers, while S
 To help you choose which of the three transfer learning strategies is best for your specific dataset, you can refer to the following _size-similarity perceptual map_.
 
 
-| ![Figure 2. Size-similarity perceptual map.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-figure-2.jpg) |
+
+| ![Figure 2. Size-similarity perceptual map.](assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-figure-2.jpg) |
 |:--:|
 | *Figure 2. Size-similarity perceptual map.* |
 
@@ -1790,15 +1747,10 @@ train_model(model, epochs=100)
 
 
     
-![Output 19. Model 5 - Training and validation accuracy curves.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-output-19.png)
-    
-
-
+<img class="chart" alt="Output 19. Model 5 - Training and validation accuracy curves." src="assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-output-19.png">
 
     
-![Output 20. Model 5 - Training and validation accuracy curves.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-output-20.png)
-    
-
+<img class="chart" alt="Output 20. Model 5 - Training and validation accuracy curves." src="assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-output-20.png">
 
 
 ```python
@@ -1828,8 +1780,7 @@ evaluate_model(model)
 
 
     
-![Output 21. Model 5 - Confusion matrix.](assets/images/jupyter/2019-12-19/2019-12-19-Convolutional-Neural-Networks-output-21.png)
-    
+<img class="cf_matrix" alt="Output 21. Model 5 - Confusion matrix." src="assets/images/jupyter/2019-11-22/2019-11-22-Convolutional-Neural-Networks-output-21.png">
 
 
 Great news–we were able to improve our model's F1 score ca. 3% by fine-tuning our pre-trained convolutional base. Unfreezing some of the layers in the base let us successfully repurpose the pre-trained model weights to better fit our task. Let's save our final model and call it a day! Thanks for sticking around this far.

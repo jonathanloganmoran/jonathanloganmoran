@@ -3,7 +3,7 @@ layout: post
 title: Comparing the Performance of Various Classifiers on the Scikit-learn Digits and MNIST Datasets
 author: Jonathan Logan Moran
 categories: portfolio
-tags: classification scikit-learn digits MNIST python ipynb machine-learning NCC NBC GNBC
+tags: NCC NBC GNBC scikit-learn digits MNIST classification machine-learning python ipynb
 permalink: /comparing-various-classifiers
 description: "In this article we will be implementing several classifiers to predict the class labels of the Scikit-learn digits and MNIST_Light datasets."
 ---
@@ -226,11 +226,7 @@ def visualize_random(images, labels, examples_per_class):
 visualize_random(digits.images, digits.target, 8)
 ```
 
-
-    
-![Figure 1. Random sample of Scikit-learn digits from each class 0-9.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-figure-1.png)
-    
-
+<img class="output" alt="Figure 1. Random sample of Scikit-learn digits from each class 0-9." src="assets/images/jupyter/2019-12-06/2019-12-06-Comparing-Various-Classifiers-figure-1.png">
 
 
 ```python
@@ -256,9 +252,7 @@ mean_image(digits.images, digits.target, dim=8)
 ```
 
 
-    
-![Figure 2. Mean image computed for each class (digits 0-9).](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-figure-2.png)
-    
+<img class="output" alt="Figure 2. Mean image computed for each class (digits 0-9)." src="assets/images/jupyter/2019-12-06/2019-12-06-Comparing-Various-Classifiers-figure-2.png">
 
 
 
@@ -347,9 +341,7 @@ plot_confusion_matrix(metrics.confusion_matrix(y_test, y_pred))
     ----------Confusion Matrix----------
 
 
-    
-![Output 1. Confusion matrix for Scikit-learn Guassian Naive Bayes Classifier on digits dataset.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-output-1.png)
-    
+<img class="cf_matrix" alt="Output 1. Confusion matrix for Scikit-learn Guassian Naive Bayes Classifier on digits dataset." src="assets/images/jupyter/2019-12-06/2019-12-06-Comparing-Various-Classifiers-output-1.png">
 
 
 #### 2.1.2. Nearest Centroid Classifier
@@ -399,11 +391,9 @@ plot_confusion_matrix(metrics.confusion_matrix(y_test, y_pred))
     weighted avg       0.89      0.89      0.89       540
     
     ----------Confusion Matrix----------
+   
 
-
-    
-![Output 2. Confusion matrix for Nearest Centroid Classifier on digits dataset.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-output-2.png)
-    
+<img class="cf_matrix" alt="Output 2. Confusion matrix for Nearest Centroid Classifier on digits dataset." src="assets/images/jupyter/2019-12-06/2019-12-06-Comparing-Various-Classifiers-output-2.png">
 
 
 #### 2.1.3. Naive Bayes Classifier
@@ -479,10 +469,8 @@ plot_confusion_matrix(metrics.confusion_matrix(y_test, y_pred))
     ----------Confusion Matrix----------
 
 
+<img class="cf_matrix" alt="Output 3. Confusion matrix for Naive Bayes Classifier on digits dataset." src="assets/images/jupyter/2019-12-06/2019-12-06-Comparing-Various-Classifiers-output-3.png">
 
-
-![Output 3. Confusion matrix for Naive Bayes Classifier on digits dataset.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-output-3.png)
-    
 
 
 #### 2.1.4. Gaussian Naive Bayes Classifier
@@ -534,10 +522,7 @@ plot_confusion_matrix(metrics.confusion_matrix(y_test, y_pred))
     ----------Confusion Matrix----------
 
 
-
-    
-![Output 4. Confusion matrix for Gaussian Naive Bayes Classifier on digits dataset.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-output-4.png)
-    
+<img class="cf_matrix" alt="Output 4. Confusion matrix for Gaussian Naive Bayes Classifier on digits dataset." src="assets/images/jupyter/2019-12-06/2019-12-06-Comparing-Various-Classifiers-output-4.png">
 
 
 ### 2.2. Scikit-learn Digits Summarised
@@ -574,9 +559,7 @@ plt.show()
 ```
 
 
-    
-![Figure 3. Random sample of Scikit-learn digits (summarised) from each class 0-9.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-figure-3.png)
-    
+<img class="output" alt="Figure 3. Random sample of Scikit-learn digits (summarised) from each class 0-9." src="assets/images/jupyter/2019-12-06/2019-12-06-Comparing-Various-Classifiers-figure-3.png">
 
 
 
@@ -642,8 +625,7 @@ plot_confusion_matrix(metrics.confusion_matrix(y_test, y_pred))
     ----------Confusion Matrix----------
 
 
-
-![Output 5. Confusion matrix for Scikit-learn Gaussian Bayes Classifier on digits summarised dataset.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-output-5.png)
+<img class="cf_matrix" alt="Output 5. Confusion matrix for Scikit-learn Gaussian Bayes Classifier on digits summarised dataset." src="assets/images/jupyter/2019-12-06/2019-12-06-Comparing-Various-Classifiers-output-5.png">
     
 
 
@@ -691,9 +673,8 @@ plot_confusion_matrix(metrics.confusion_matrix(y_test, y_pred))
     ----------Confusion Matrix----------
 
 
-    
-![Output 6. Confusion matrix for Nearest Centroid Classifier on digits summarised dataset.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-output-6.png)
-    
+<img class="cf_matrix" alt="Output 6. Confusion matrix for Nearest Centroid Classifier on digits summarised dataset." src="assets/images/jupyter/2019-12-06/2019-12-06-Comparing-Various-Classifiers-output-6.png">
+
 
 
 #### 2.2.3. Naive Bayes Classifier
@@ -750,12 +731,9 @@ plot_confusion_matrix(metrics.confusion_matrix(y_test, y_pred))
        macro avg       0.91      0.91      0.91       540
     weighted avg       0.92      0.91      0.91       540
     
-    ----------Confusion Matrix----------
+    ----------Confusion Matrix----------     
 
-
-    
-![Output 7. Confusion matrix for Naive Bayes Classifier on digits summarised dataset.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-output-7.png)
-      
+<img class="cf_matrix" alt="Output 7. Confusion matrix for Naive Bayes Classifier on digits summarised dataset." src="assets/images/jupyter/2019-12-06/2019-12-06-Comparing-Various-Classifiers-output-7.png">
 
 
 #### 2.2.4. Gaussian Naive Bayes Classifier
@@ -800,11 +778,10 @@ plot_confusion_matrix(metrics.confusion_matrix(y_test, y_pred))
     weighted avg       0.91      0.89      0.89       540
     
     ----------Confusion Matrix----------
+   
 
+<img class="cf_matrix" alt="Output 8. Confusion matrix for Gaussian Naive Bayes Classifier on digits summarised dataset." src="assets/images/jupyter/2019-12-06/2019-12-06-Comparing-Various-Classifiers-output-8.png">
 
-    
-![Output 8. Confusion matrix for Gaussian Naive Bayes Classifier on digits summarised dataset.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-output-8.png)
-    
 
 
 ### 2.3. MNIST_Light
@@ -852,20 +829,17 @@ visualize_random(train_features, train_labels, examples_per_class=8)
 ```
 
 
-    
-![Figure 4. Random sample of MNIST digits from each class 0-9.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-figure-4.png)
-    
+<img class="output" alt="Figure 4. Random sample of MNIST digits from each class 0-9." src="assets/images/jupyter/2019-12-06/2019-12-06-Comparing-Various-Classifiers-figure-4.png">
 
 
 
 ```python
 mean_image(train_features, train_labels, dim=20)
 ```
+  
 
+<img class="output" alt="Figure 5. Mean image computed for each class in MNIST_Light (digits 0-9)." src="assets/images/jupyter/2019-12-06/2019-12-06-Comparing-Various-Classifiers-figure-5.png">
 
-    
-![Figure 5. Mean image computed for each class in MNIST_Light (digits 0-9).](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-figure-5.png)
-    
 
 
 #### 2.3.1. Scikit-learn Gaussian Naive Bayes Classifier
@@ -917,11 +891,10 @@ plot_confusion_matrix(metrics.confusion_matrix(test_labels, y_pred))
     weighted avg       0.70      0.66      0.64      1500
     
     ----------Confusion Matrix----------
+ 
 
+<img class="cf_matrix" alt="Output 9. Confusion matrix for Scikit-learn Gaussian Naive Bayes on MNIST_Light data." src="assets/images/jupyter/2019-12-06/2019-12-06-Comparing-Various-Classifiers-output-9.png">
 
-    
-![Output 9. Confusion matrix for Scikit-learn Gaussian Naive Bayes on MNIST_Light data.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-output-9.png)
-    
 
 
 #### 2.3.2. Nearest Centroid Classifier
@@ -968,9 +941,8 @@ plot_confusion_matrix(metrics.confusion_matrix(test_labels, y_pred))
     ----------Confusion Matrix----------
 
 
-    
-![Output 10. Confusion matrix for Nearest Centroid Classifier on MNIST_Light data.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-output-10.png)
-    
+
+<img class="cf_matrix" alt="Output 10. Confusion matrix for Nearest Centroid Classifier on MNIST_Light data." src="assets/images/jupyter/2019-12-06/2019-12-06-Comparing-Various-Classifiers-output-10.png">
 
 
 #### 2.3.3. Naive Bayes Classifier
@@ -1030,9 +1002,9 @@ plot_confusion_matrix(metrics.confusion_matrix(test_labels, y_pred))
     ----------Confusion Matrix----------
 
 
-    
-![Output 11. Confusion matrix for Naive Bayes Classifier on MNIST_Light data.](assets/images/jupyter/2019-12-20/2019-12-20-Comparing-Various-Classifiers-output-11.png)
   
+
+<img class="cf_matrix" alt="Output 11. Confusion matrix for Naive Bayes Classifier on MNIST_Light data." src="assets/images/jupyter/2019-12-06/2019-12-06-Comparing-Various-Classifiers-output-11.png">
 
 
 ## Credits

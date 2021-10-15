@@ -95,10 +95,7 @@ plt.show()
 ```
 
 
-    
-![Figure 1. Random sample of Scikit-learn digits from each class 0-9.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-figure-1.png)
-    
-
+<img class="output" alt="Figure 1. Random sample of Scikit-learn digits from each class 0-9." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-figure-1.png">
 
 
 ```python
@@ -115,9 +112,7 @@ plt.show()
 ```
 
 
-    
-![Figure 2. Mean image computed for each class (digits 0-9).](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-figure-2.png)
-    
+<img class="output" alt="Figure 2. Mean image computed for each class (digits 0-9)." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-figure-2.png">
 
 
 #### Splitting into training and test sets
@@ -320,11 +315,8 @@ model.fit(train_features)
     Δμₖ: inf
     Δσₖ: inf
 
-
-
-    
-![Output 1. EMMforGMM iteration 0.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-1.png)
-    
+   
+<img class="output" alt="Output 1. EMMforGMM training - iteration 0." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-1.png">
 
 
     -------- iteration 10 --------
@@ -332,43 +324,31 @@ model.fit(train_features)
     Δσₖ: 0.006980384032168101
 
 
-
-    
-![Output 2. EMMforGMM iteration 10.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-2.png)
-    
+<img class="output" alt="Output 1. EMMforGMM training - iteration 10." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-2.png">
 
 
     -------- iteration 20 --------
     Δμₖ: 0.0043815616448701356
     Δσₖ: 0.0011309086525828627
 
-
-
-    
-![Output 3. EMMforGMM iteration 20.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-3.png)
-    
+  
+<img class="output" alt="Output 3. EMMforGMM training - iteration 20." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-3.png">
 
 
     -------- iteration 30 --------
     Δμₖ: 0.0017659929216632952
     Δσₖ: 0.0007651120346653245
 
-
-
-    
-![Output 4. EMMforGMM iteration 30.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-4.png)
-    
+ 
+<img class="output" alt="Output 4. EMMforGMM training - iteration 30." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-4.png">
 
 
     -------- iteration 40 --------
     Δμₖ: 0.00015692821124366207
     Δσₖ: 0.00010460936069779658
 
-
-
-    
-![Output 5. EMMforGMM iteration 40.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-5.png)
-    
+  
+<img class="output" alt="Output 5. EMMforGMM training - iteration 40." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-5.png">
 
 
     -------- iteration 50 --------
@@ -376,86 +356,61 @@ model.fit(train_features)
     Δσₖ: 3.239725424089568e-05
 
 
-
-    
-![Output 6. EMMforGMM iteration 50.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-6.png)
-    
+<img class="output" alt="Output 6. EMMforGMM training - iteration 50." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-6.png">
 
 
     -------- iteration 60 --------
     Δμₖ: 6.6351084939964e-06
     Δσₖ: 4.4816080131682146e-06
 
-
-
-    
-![Output 7. EMMforGMM iteration 60.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-7.png)
-    
+   
+<img class="output" alt="Output 7. EMMforGMM training - iteration 60." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-7.png">
 
 
     -------- iteration 70 --------
     Δμₖ: 5.103103453807378e-06
     Δσₖ: 1.4159123793711093e-06
 
-
-
-    
-![Output 8. EMMforGMM iteration 70.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-8.png)
-    
+   
+<img class="output" alt="Output 8. EMMforGMM training - iteration 70." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-8.png">
 
 
     -------- iteration 80 --------
     Δμₖ: 2.3776945110021153e-07
     Δσₖ: 1.6398608126966252e-07
 
-
-
-    
-![Output 9. EMMforGMM iteration 80.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-9.png)
-    
+   
+<img class="output" alt="Output 9. EMMforGMM training - iteration 80." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-9.png">
 
 
     -------- iteration 90 --------
     Δμₖ: 3.2171004027414796e-08
     Δσₖ: 2.183106893871578e-08
 
-
-
-    
-![Output 10. EMMforGMM iteration 90.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-10.png)
-    
+  
+<img class="output" alt="Output 10. EMMforGMM training - iteration 90." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-10.png">
 
 
     -------- iteration 100 --------
     Δμₖ: 5.7718268497986e-09
     Δσₖ: 3.933698297653443e-09
 
-
-
-    
-![Output 11. EMMforGMM iteration 100.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-11.png)
-    
+  
+<img class="output" alt="Output 11. EMMforGMM training - iteration 100." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-11.png">
 
 
     -------- iteration 110 --------
     Δμₖ: 1.1219926099315103e-09
     Δσₖ: 7.656876105377464e-10
 
-
-
-    
-![Output 12. EMMforGMM iteration 110.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-12.png)
-    
+   
+<img class="output" alt="Output 12. EMMforGMM training - iteration 110." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-12.png">
 
 
     -------- converged--------
 
-
-
-    
-![Output 13. EMMforGMM converged.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-13.png)
-    
-
+   
+<img class="output" alt="Output 13. EMMforGMM training - converged." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-13.png">
 
 #### Visualising the model results
 
@@ -471,64 +426,25 @@ for i in range(10):
     plt.show()
 ```
 
+<img class="output" alt="Output 14. EMMforGMM learned distributions - digit 1." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-14.png">
 
-    
-![Output 14. EMMforGMM learned distributions - digit 1.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-14.png)
-    
+<img class="output" alt="Output 15. EMMforGMM learned distributions - digit 6." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-15.png">
 
+<img class="output" alt="Output 16. EMMforGMM learned distributions - digit 4." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-16.png">
 
+<img class="output" alt="Output 17. EMMforGMM learned distributions - digit 5." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-17.png">
 
-    
-![Output 15. EMMforGMM learned distributions - digit 6.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-15.png)
-    
+<img class="output" alt="Output 18. EMMforGMM learned distributions - digit 8." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-18.png">
 
+<img class="output" alt="Output 19. EMMforGMM learned distributions - digit 0." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-19.png">
 
+<img class="output" alt="Output 20. EMMforGMM learned distributions - digit 7." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-20.png">
 
-    
-![Output 16. EMMforGMM learned distributions - digit 4.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-16.png)
-    
+<img class="output" alt="Output 21. EMMforGMM learned distributions - digit 2." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-21.png">
 
+<img class="output" alt="Output 22. EMMforGMM learned distributions - digit 9." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-22.png">
 
-
-    
-![Output 17. EMMforGMM learned distributions - digit 5.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-17.png)
-    
-
-
-
-    
-![Output 18. EMMforGMM learned distributions - digit 8.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-18.png)
-    
-
-
-
-    
-![Output 19. EMMforGMM learned distributions - digit 0.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-19.png)
-    
-
-
-
-    
-![Output 20. EMMforGMM learned distributions - digit 7.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-20.png)
-    
-
-
-
-    
-![Output 21. EMMforGMM learned distributions - digit 2.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-21.png)
-    
-
-
-
-    
-![Output 22. EMMforGMM learned distributions - digit 9.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-22.png)
-    
-
-
-
-    
-![Output 17. EMMforGMM learned distributions - digit 3.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-23.png)
-    
+<img class="output" alt="Output 17. EMMforGMM learned distributions - digit 3." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-23.png">
 
 
 #### Clustering training data
@@ -607,11 +523,8 @@ plot_confusion_matrix(metrics.confusion_matrix(train_labels, y_pred))
     
     ----------Confusion Matrix----------
 
-
-    
-![Output 24. GNB prediction run over training data.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-24.png)
-    
-
+  
+<img class="cf_matrix" alt="Output 24. Confusion matrix for GNB prediction run over training data." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-24.png">
 
 
 ```python
@@ -647,10 +560,7 @@ plt.show()
 ```
 
 
-    
-![Output 25. Visualising cluster assignments from training data.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-25.png)
-    
-
+<img class="output" alt="Output 25. Visualising cluster assignments from training data." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-25.png">
 
 
 ```python
@@ -677,33 +587,31 @@ print('-'*10 + 'Confusion Matrix' + '-'*10)
 plot_confusion_matrix(metrics.confusion_matrix(train_labels, y_train))
 ```
 
-Repaired training set cluster assignments...
-----------Classification Report-----
-              precision    recall  f1-score   support
+    Repaired training set cluster assignments...
+    ----------Classification Report-----
+                  precision    recall  f1-score   support
 
-           0       0.67      0.99      0.80       125
-           1       0.41      0.29      0.34       129
-           2       0.33      0.52      0.40       124
-           3       0.45      0.67      0.54       130
-           4       0.61      0.23      0.33       124
-           5       0.69      0.58      0.63       126
-           6       1.00      0.94      0.97       127
-           7       0.76      0.84      0.80       125
-           8       0.47      0.48      0.48       122
-           9       0.28      0.12      0.17       125
+               0       0.67      0.99      0.80       125
+               1       0.41      0.29      0.34       129
+               2       0.33      0.52      0.40       124
+               3       0.45      0.67      0.54       130
+               4       0.61      0.23      0.33       124
+               5       0.69      0.58      0.63       126
+               6       1.00      0.94      0.97       127
+               7       0.76      0.84      0.80       125
+               8       0.47      0.48      0.48       122
+               9       0.28      0.12      0.17       125
 
-    accuracy                           0.57      1257
-   macro avg       0.57      0.57      0.55      1257
-weighted avg       0.57      0.57      0.55      1257
+        accuracy                           0.57      1257
+       macro avg       0.57      0.57      0.55      1257
+    weighted avg       0.57      0.57      0.55      1257
 
-    
-    ----------Confusion Matrix----------
+        
+        ----------Confusion Matrix----------
 
 
-
-    
-![Output 26. Confusion matrix for GNB prediction over training set with repaired cluster assignments.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-26-v2.png)
-    
+ 
+<img class="cf_matrix" alt="Output 26. Confusion matrix for GNB prediction over training set with repaired cluster assignments." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-26-v2.png">
 
 
 The downside to this approach is that we have to manually alter the assigned class labels for both the train and test set predictions.
@@ -793,9 +701,8 @@ plot_confusion_matrix(metrics.confusion_matrix(train_labels, y_pred))
     ----------Confusion Matrix----------
 
 
-
-![Output 27. Confusion matrix for GNB prediction over training set with target mapping function.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-27.png)
-    
+  
+<img class="cf_matrix" alt="Output 27. Confusion matrix for GNB prediction over training set with target mapping function." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-27.png">
 
 
 
@@ -839,9 +746,7 @@ plot_confusion_matrix(metrics.confusion_matrix(test_labels, y_pred))
     ----------Confusion Matrix----------
 
 
-    
-![Output 28. Confusion matrix for GNB prediction over test set with target mapping function.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-28.png)
-    
+<img class="cf_matrix" alt="Output 28. Confusion matrix for GNB prediction over test set with target mapping function." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-28.png">
 
 
 ### Compare to k-Means with Scikit-learn
@@ -920,10 +825,8 @@ plot_confusion_matrix(metrics.confusion_matrix(test_labels, labels))
     
     ----------Confusion Matrix----------
 
-
-    
-![Output 29. Confusion matrix for k-Means prediction over test set with permuted labels.](assets/images/jupyter/2019-12-30/2019-12-30-Unsupervised-Learning-EM-output-29.png)
-    
+  
+<img class="cf_matrix" alt="Output 29. Confusion matrix for k-Means prediction over test set with permuted labels." src="assets/images/jupyter/2019-12-13/2019-12-13-Unsupervised-Learning-EM-output-29.png">
 
 
 

@@ -3,7 +3,7 @@ layout: post
 title: Recognising Named Entities (NER)
 author: Jonathan Logan Moran
 categories: portfolio
-tags: NLP NER embeddings python ipynb machine-learning RNN LSTM
+tags: NLP NER embeddings machine-learning RNN LSTM python ipynb
 permalink: /recognising-named-entities
 description: "Named entity recognition (abbreviated NER) is a subset of NLP that seeks to identify and categorise key information in text (called entities). In this article we will be performing NER by training a neural net on the CoNLL2003 tags and GloVe embeddings datasets."
 ---
@@ -969,16 +969,13 @@ plt.legend()
 plt.show()
 ```
 
+  
 
-    
-![png](../assets/images/jupyter/2019-12-14/2019-12-14-Recognising-Named-Entities-fig1.png)
-    
+<img class="chart" alt="Output 1. Model 1 - Training and validation accuracy curves" src="assets/images/jupyter/2019-11-29/2019-11-29-Recognising-Named-Entities-fig1.png">
 
+  
 
-
-    
-![png](../assets/images/jupyter/2019-12-14/2019-12-14-Recognising-Named-Entities-fig2.png)
-    
+<img class="chart" alt="Output 2. Model 1 - Training and validation loss curves" src="assets/images/jupyter/2019-11-29/2019-11-29-Recognising-Named-Entities-fig2.png">
 
 
 ##### 3. Apply your network to the test set and report the accuracy you obtained. You will use the `evaluate` method.
@@ -1186,16 +1183,12 @@ plt.legend()
 plt.show()
 ```
 
+  
 
-    
-![png](../assets/images/jupyter/2019-12-14/2019-12-14-Recognising-Named-Entities-fig3.png)
-    
-
+<img class="chart" alt="Output 3. Model 2 - Training and validation accuracy curves" src="assets/images/jupyter/2019-11-29/2019-11-29-Recognising-Named-Entities-fig3.png">
 
 
-    
-![png](../assets/images/jupyter/2019-12-14/2019-12-14-Recognising-Named-Entities-fig4.png)
-    
+<img class="chart" alt="Output 4. Model 2 - Training and validation loss curves" src="assets/images/jupyter/2019-11-29/2019-11-29-Recognising-Named-Entities-fig3.png">
 
 
 ##### 3. Apply your network to the test set and report the accuracy you obtained. You will use the `evaluate` method.
@@ -1484,9 +1477,7 @@ plt.xticks(ticks=range(len(target_counts)), labels= [0,1] + ner);
 ```
 
 
-    
-![png](../assets/images/jupyter/2019-12-14/2019-12-14-Recognising-Named-Entities-fig5.png)
-    
+<img class="chart" alt="Output 4. Distribution of classes in dataset (class imbalance)" src="assets/images/jupyter/2019-11-29/2019-11-29-Recognising-Named-Entities-fig5.png">
 
 
 From the bar chart, it's clear that there's a significant skew. This is a problem as most machine learning algorithms assume that the data is evenly distributed within the classes. As a result, our model becomes more biased towards predicting the majority class, `O`. There's significantly less data for the model to learn the patterns of the minority classes (the remaining ner tags).

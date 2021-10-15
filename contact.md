@@ -3,9 +3,10 @@ layout: default
 is_contact: true
 ---
 
-* Email: [jonathan.moran107@gmail.com](mailto:jonathan.moran107@gmail.com)
+* Email: firstname [dot] lastname107 [at] gmail.com
 
-* Phone: [+1 (760) 975-7771](tel:+17609757771)
+* Phone: +1 (760) nine.seven.five 7.7.7.1
+
 
 ---
 

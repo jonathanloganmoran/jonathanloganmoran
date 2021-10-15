@@ -3,7 +3,7 @@ layout: post
 title: Decision Tree Learning with CART and ID3 Algorithms
 author: Jonathan Logan Moran
 categories: portfolio
-tags: decision-trees CART ID3 supervised-learning classification machine-learning scikit-learn digits python ipynb
+tags: decision-trees CART ID3 supervised-learning classification machine-learning numpy scikit-learn digits python ipynb
 permalink: /decision-trees
 description: "Often times, classification can be framed as a sort of questioning-answering system. Questions are asked about the input data which aid the model in determining a prediction. One example of a 'question' that a model might ask is 'does this input image contain this attribute value?' Decision trees naturally help to structure this kind of if-then hierarchical decision-making by defining a series of questions that lead to a class label or value. In this article, we will explore several algorithms for constructing the two types of decision trees; the ID3 algorithm for Classification Trees and the CART for Regression Trees. While reading along, you will be able to implement your own ID3 algorithm from scratch using the code provided in this notebook."
 ---

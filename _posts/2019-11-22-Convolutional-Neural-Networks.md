@@ -3,7 +3,7 @@ layout: post
 title: Convolutional Neural Networks - The Basics
 author: Jonathan Logan Moran
 categories: portfolio
-tags: CNN image-augmentation feature-extraction transfer-learning classification flowers-recognition machine-learning python ipynb 
+tags: CNN numpy keras image-augmentation feature-extraction transfer-learning classification flowers-recognition neural-networks machine-learning python ipynb 
 permalink: /convolutional-neural-networks-basics
 description: "In this post, we'll introduce you to the Convolutional Neural Network and its application to image classification. We'll walk you through building a simple CNN for multi-class classification, then run it on the Kaggle Flowers Recognition dataset. You will also get to improve your model's results using several common techniques. Once you have that down, you'll get to try out transfer learning using your CNN and a pre-trained state-of-the-art InceptionV3 base. Finally, we'll show you how to achieve a great classification accuracy with feature extraction and fine-tuning."
 ---

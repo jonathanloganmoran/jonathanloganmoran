@@ -45,9 +45,9 @@ layout: default
 # <ins> Skills </ins>
 
 |----------------------------------|------------------------|--------------------|----------------------|
-| C                                            | GIS                          | MATLAB             | Python                   |
-| C++                                        | Git                           | Neural Networks | R                           |
-| Cross-Functional Leadership | Java                        | NumPy                | Remote Sensing   |
-| Data Cleansing                       | Jupyter notebooks | pandas                | Spreadsheets        |
-| Docker                                    | Keras                      | pandasql             | SQL                       |
-| Experiment design                 | Machine Learning   | PostgreSQL         | Tensorflow            |
+| C                                            | GIS                          | MATLAB             | [Python](https://jonathanlmoran.com/tag/python)                   |
+| C++                                        | [Git](https://github.com/jonathanloganmoran)                           | [Neural Networks](/tag/neural-networks) | R                           |
+| Cross-Functional Leadership | Java                        | [NumPy](/tag/numpy)                | Remote Sensing   |
+| Data Cleansing                       | [Jupyter notebooks](/tag/ipynb) | [pandas](/tag/pandas)                | Spreadsheets        |
+| Docker                                    | [Keras](/tag/keras)                      | [pandasql](/tag/pandasql)             | [SQL](/tag/SQL)                       |
+| Experiment design                 | [Machine Learning](/tag/machine-learning)   | PostgreSQL         | Tensorflow            |

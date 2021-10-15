@@ -3,7 +3,7 @@ layout: post
 title: Understanding Search Functionality
 author: Jonathan Logan Moran
 categories: portfolio
-tags: plotly python SQL ipynb yammer case-studies feasibility-studies hypothesis-testing
+tags: plotly pandas SQL pandasql yammer case-studies feasibility-studies hypothesis-testing data-visualisation python ipynb
 permalink: /understanding-search-functionality
 description: "Part 2 in a three-part study exploring the world of Yammer– a workplace communication platform. In this study, we investigate Yammer's search feature with the goal of making recommendations to the development team."
 ---

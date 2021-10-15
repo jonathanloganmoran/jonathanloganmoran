@@ -3,7 +3,7 @@ layout: post
 title: Investigating A Drop In User Engagement
 author: Jonathan Logan Moran
 categories: portfolio
-tags: plotly python SQL ipynb yammer case-studies hypothesis-testing
+tags: plotly pandas SQL pandasql yammer case-studies hypothesis-testing data-visualisation python ipynb
 permalink: /a-drop-in-user-engagement
 description: "Part 1 in a three-part study exploring the world of Yammer– a workplace communication platform. In this study, we investigate a drop in user engagement on the platform by using product analytics and data science tools."
 ---

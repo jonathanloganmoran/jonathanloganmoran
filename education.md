@@ -63,6 +63,7 @@ layout: default
 | 2016 | [UC Move Out](https://devpost.com/software/uc-move-out)  | An intuitive cost comparison calculator for UC students that budgets on- and off-campus living expenses. |
 
 # <ins> Coursework </ins>
+
 |-------------------------------------------|-------------------------------------------|------------------------------|-----------------------------------------|---------------------------------------|
 | Algorithm Design and Analysis             | Cognitive Science                         | Data Structures & Algorithms | Intro to Object Oriented Programming    | Project in Computer Science           |
 | Analysis of Psychological Data            | Computational Cognitive Neuroscience      | Discrete Mathematics         | Language Technology (NLP)               | Research Methods in Cognitive Science |

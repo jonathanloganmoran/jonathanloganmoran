@@ -3,44 +3,54 @@ layout: default
 ---
 # <ins> Professional Interests </ins>
 *   Machine Learning and AI
-*   Natural Language Processing
 *   Computer Vision
 *   Camera Technologies
+*   Self-driving vehicles, AD and ADAS
+*   Natural Language Processing
 
 # <ins> Experience </ins>
 
 # [The Morning Star Company](https://www.morningstarco.com)
 ### Los Banos, CA
 ### Feb 2020 - June 2020
-*   Utilized Python, OpenCV, SQL and C++ to build a production-level computer vision application to detect and log various tomato plant species for further analysis
-*   Presented software to stakeholders and was awarded best solution
+*   Built agritcultural analytics software utilising computer vision to monitor the annual health/growth of 3 billion tomato plant seedlings
+*   Deployed a robust data model to identify and log key factors responsible for saving up to 600 million ungerminated plants
+*   Guided team from design to deployment; awarded best solution resulting from subject-matter expertise in CV and ML
 
 # [CRADL Lab](https://faculty.ucmerced.edu/jgilger/about/index.html)
 ### Merced, CA
 ### June 2018 - Jan 2019
-*   Authored experiment designs in attention and perception, phonetic restoration, and spatial navigation in VR
-*   Presented at ICPS Paris 2019
+*   Turned research ideas into IRB-certified experiment designs, lab software and journal publications
+*   Conducted longitudinal analysis of over 18 thousand subjects; invited to co-present results at ICPS Paris 2019
+*   Built data gathering/analysis pipelines in human subjects studies (attention and perception)
 *   <ins>Publication</ins>: Moran, J. L. (2019). Classifying Emotion Using Convolutional Neural Networks. UCM URJ, 11(1).
 
 # [Google](https://careers.google.com)
 ### Mar 2017 - July 2017
-*   Participated in an invite-only 12-week development program for high-potential CS undergraduates
-*   Implemented a full-stack chat application in Java and PHP while accomplishing all team + project goals
-*   Gained important exposure to best practices, Google code reviews, advisor mentorship, and mock interviews
+*   An invite-only 12-week development program for high-potential CS undergraduates
+*   Awarded distinction from directors for novel client-server proposals
+*   Refactored Java codebase by implementing database integrations; designed desktop + web interfaces
+*   Exceeded all project goals across MVP releases, code reviews and trainings 
 
 # [City of Merced](https://www.cityofmerced.org/)
 ### Merced, CA
 ### Aug 2016 - Nov 2016
-*   Intern working on an initiative to bring the City of Merced's document handling process online
 *   Managed the implementation of new software to digitize City Hall documents and web forms
 *   Worked directly with Planning/Engineering/Development teams to address their business needs
-*   Offerred part-time position after completition of internship
+*   Offered part-time position after completition of internship
 
 # [EscoGelato](https://escogelato.com)
 ### Escondido, CA
 ### Mar 2015 - Aug 2015
 *   Barista and food/kitchen prep for San Diego's top-rated dessert and espresso bar
 *   Customer interaction + loyalty, cashiering, teamwork, food handling safety
+
+# [Equiso Smart TV](https://www.kickstarter.com/projects/2028163448/equiso-smart-tv-turn-any-tv-into-a-smart-tv)
+### Carlsbad, CA
+### Aug 2013 - Mar 2014
+*   Ran the refurbishment of Equiso's entire Android device stock
+*   Flashed, unit/integration tested Android 4.0 HDMI smart stick devices
+*   Predicted and analysed weak points in hardware design; frequently communicated with CEO + engineers to address design concerns
 
 # <ins> Skills </ins>
 

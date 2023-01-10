@@ -19,6 +19,6 @@ Software engineer and graduate of Computer Science & Engineering working in visi
 
 #### Learning next:
 - [ ] [🪄 Sensor Fusion Engineer Nanodegree | Udacity](https://www.udacity.com/course/sensor-fusion-engineer-nanodegree--nd313)
-- [ ] [🛣 Self-Driving Car Engineer Nanodegree | Udacity](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd0013)
+- [x] ~[🛣 Self-Driving Car Engineer Nanodegree | Udacity](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd0013)~
 - [x] ~[🤖 Machine Learning Crash Course | Google](https://developers.google.com/machine-learning/crash-course)~
 - [x] ~[🔎 SQL Tutorial | Mode](https://mode.com/sql-tutorial/)~

@@ -11,11 +11,10 @@ Software engineer and graduate of Computer Science & Engineering working in visi
 
 
 #### I am:
-* 🚘 currently seeking full-time opportunities in **autonomous vehicles**, **computer vision**, and **machine learning**.
-* 🌍 travelling back-and-forth between California and Sweden.
-* 👨‍💻 working on a portfolio website (check it out [here](https://jonathanlmoran.com))!
-* 💫 star-gazing, shooting photography and perfecting my espresso game in my downtime.
-* 🦾 making roads safer with self-driving cars!
+* 🚘 interested in **autonomous vehicles**, **computer vision**, and **machine learning**.
+* 🌍 open to collaboration in California and Sweden.
+* 🦾 pushing safety forward with self-driving cars.
+* 💫 star-gazing, running / hiking, taking pics and pulling espresso shots in my downtime.
 
 #### Learning next:
 - [ ] [🪄 Sensor Fusion Engineer Nanodegree | Udacity](https://www.udacity.com/course/sensor-fusion-engineer-nanodegree--nd313)

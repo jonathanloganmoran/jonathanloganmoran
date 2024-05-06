@@ -3,7 +3,7 @@
 
 I'm Jonathan — 
 
->`/jAH-nuh-thuhn lOH-guhn muhr-rAn/`
+>[`/jAH-nuh-thuhn lOH-guhn muhr-rAn/`](https://linkedin.com/in/jonathanloganmoran)
 
 
 Software engineer and graduate of Computer Science & Engineering working in automotive, vision and machine learning. Here you'll find some of my work in many topics under the sun from neural nets to control systems.
@@ -25,6 +25,4 @@ Software engineer and graduate of Computer Science & Engineering working in auto
 <br>
 
 
-If you like what I do, and want to show your support for my open-source work, consider [sponsoring me on GitHub](https://github.com/sponsors/jonathanloganmoran) or "buying me a coffee" on [Venmo](https://venmo.com/u/jonathan-moran107) or [Cash app](https://cash.app/$jonathanloganmoran). 
-
-If you have a job opportunity for me in Sweden, or want to consider becoming my mentor (or friend!), send me an e-mail we'll book a time to chat!
+If you like what I do, and want to show your support for my open-source work, consider [sponsoring me on GitHub](https://github.com/sponsors/jonathanloganmoran) or "buying me a coffee" on [Venmo](https://venmo.com/u/jonathan-moran107) or [Cash app](https://cash.app/$jonathanloganmoran). If you have a job opportunity for me in Sweden, or want to consider becoming my mentor (or friend!), send me an e-mail, or message me on [LinkedIn](https://linkedin.com/in/jonathanloganmoran), and we'll book a time to chat!
